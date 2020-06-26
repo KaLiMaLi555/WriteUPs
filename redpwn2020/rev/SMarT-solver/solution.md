@@ -1,4 +1,4 @@
-*SMarT-solver*
+**SMarT-solver**
 
 I used z3-sat solver to solve this challenge.
 
@@ -69,3 +69,5 @@ if s.check() == sat:
 else:
 	print('Nothing Here')
 ```
+
+FLAG : `flag{thequickbrownfoxjumpedoverthelazydogandlearnedhowtoautomateanalysis}`
