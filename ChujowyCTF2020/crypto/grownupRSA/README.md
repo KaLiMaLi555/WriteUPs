@@ -12,6 +12,8 @@ So, from the description we already know some starting bytes `(97 bytes)` of the
 
 I immediately thought of `Coppersmith method(https://en.wikipedia.org/wiki/Coppersmith%27s_attack)` as it states of solving of monic polynomial of degree d for all roots less than a certain value X. Honestly, I don't understand the whole math behind the attack. It was just a hunch that this could potentially solve the problem and luckily it did.
 
+![alt text](https://github.com/KaLiMaLi555/WriteUPs/blob/master/ChujowyCTF2020/crypto/grownupRSA/images/coppersmith_method.png)
+
 I was trying to find already written code to save some time and stumbled upon this blog (https://latticehacks.cr.yp.to/rsa.html). I wrote some more script to initialize the varibles and it worked. 
 
 ```
